@@ -17,6 +17,8 @@ import keyboard from "../assets/prizes/creamy_keyboard.jpg"
 import headphones from "../assets/prizes/headphones.png"
 import glasses from "../assets/prizes/metaGlasses.jpeg"
 import charger from "../assets/prizes/anker_image.png"
+import mouse from "../assets/prizes/mouse.png"
+import zimablade from "../assets/prizes/zimablade.webp"
 // Placeholder tier data — swap items/hours/codenames for real reward-tier
 // content later. Structure (hours, codename, items[]) is stable.
 // `hours` is each item's flat hour cost (spendable currency), not a minimum
@@ -48,8 +50,8 @@ export const prizeTiers = [
       { id: 'ProtonMe', name: "ProtonMe 1 year subscription", image: protonMe, desc: "Proton Me Subscription for one year to protect yourself."},
       { id: "tryHackMe", name: "TryHackMe 6 month subscription", image: tryHackMe, desc: "six months of pure cybersecurity grind"},
       { id: "keyboard", name: "EPOMAKER TH99 PRO Keyboard", image: keyboard, desc: "really good keyboard (i use it daily)."},
-      { id: "charger", name: "Anker Nano Charger (100W) with USB-C Cable", image: charger, desc: "100W charging for charging stuff"}
-    
+      { id: "charger", name: "Anker Nano Charger (100W) with USB-C Cable", image: charger, desc: "100W charging for charging stuff"},
+      { id: "mouse", name: "Logitech MX Master 3S Wireless Bluetooth Mouse", image: mouse, desc: "nice mouse for clicking faster"}
     
     ],
   },
@@ -59,6 +61,7 @@ export const prizeTiers = [
     items: [
       { id: 'monitor', name: '144Hz Curved Monitor', image: monitorPlaceholder, desc: '144 hertz 27 inch curved monitor for whatever you do on your computer.' },
       { id: 'flipper-zero', name: 'Flipper Zero', image: flipperPlaceholder, desc: 'can do cool stuff.' },
+      { id: 'zimablade', name: 'ZimaBlade 7700 DeskBuild NAS Kit', image: zimablade, desc: 'build your own network attached storage' },
       
     ],
   },
