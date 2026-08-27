@@ -48,9 +48,8 @@ export const prizeTiers = [
       { id: 'ProtonMe', name: "ProtonMe 1 year subscription", image: protonMe, desc: "Proton Me Subscription for one year to protect yourself."},
       { id: "tryHackMe", name: "TryHackMe 6 month subscription", image: tryHackMe, desc: "six months of pure cybersecurity grind"},
       { id: "keyboard", name: "EPOMAKER TH99 PRO Keyboard", image: keyboard, desc: "really good keyboard (i use it daily)."},
-      { id: "charger", name: "Anker Nano Charger (100W) with USB-C Cable", image: charger, desc: "100W charging for charging stuff"}
-    
-    
+      { id: "charger", name: "Anker Nano Charger (100W) with USB-C Cable", image: charger, desc: "100W charging for charging stuff"},
+      { id: "desk", name: "FEZIBO Standing desk 32x19", image: charger, desc: "Nice standing desk"}
     ],
   },
   {
